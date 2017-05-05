@@ -1,20 +1,18 @@
-// $(document).ready(function() {
-// 		$("#apod_date_js").datepicker();
-// 		$("button").click(function() {
-// 				var apodDate = $("#apod_date_js").val();
-// 				if (apodDate === "") {
-// 			alert("Please select a date");
-// 				} else {
-// 			confirm("Would you like to view this date?" );
-// 				}
-// 		});
+// $(function() {
+// 	$("#apod_date_js").datepicker();
+// 	$(".search_button").click(function() {
+// 			var apodDate = $("#apod_date_js").val();
+// 			if (apodDate === "") {
+// 		alert("Please select a date");
+// 			} else {
+// 		confirm("Would you like to view this date?" );
+// 			}
+// 	});
 // });
 
 $( function() {
 	$( "#apod_date_js" ).datepicker();
-  } );
-
-
+	} );
 
 $(function(){
 	$('form').submit(function(event){

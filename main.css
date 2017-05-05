@@ -1,3 +1,15 @@
-* {
-	box-sizing: border-box;
+main {
+	background-image: url(DarkNebula.jpg);
+	height: 500px;
+	background-size: cover;
+	color: white;
+	background-position: middle center;
+	text-align: center;
+}
+.navbar{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white !important;
+}
+section{
+	/*color: white;*/
 }
