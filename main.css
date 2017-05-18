@@ -1,5 +1,5 @@
-main {
-	background-image: url(DarkNebula.jpg);
+body {
+	background-image: url(SaturnIR.jpg);
 	/*height: 500px;*/
 	background-size: cover;
 	background-position: middle center;
@@ -7,14 +7,24 @@ main {
 }
 
 .jumbotron {
-/*	background-image: url(DarkNebula.jpg);*/
 	height: 500px;
-/*	background-size: cover;*/
 	color: white;
-/*	background-position: middle center;*/
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
 }
-a{
-	color: lightblue;
+.result_page {
+	background-color: black;
+}
+#result{
+	height: 50%;
+	width: 50%;
+}
+.card {
+	color: white;
+	background-color: black;
 }
 
