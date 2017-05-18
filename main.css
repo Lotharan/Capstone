@@ -1,9 +1,20 @@
 main {
 	background-image: url(DarkNebula.jpg);
-	height: 500px;
+	/*height: 500px;*/
 	background-size: cover;
-	color: white;
 	background-position: middle center;
 	text-align: center;
+}
+
+.jumbotron {
+/*	background-image: url(DarkNebula.jpg);*/
+	height: 500px;
+/*	background-size: cover;*/
+	color: white;
+/*	background-position: middle center;*/
+	background-color: rgba(0, 0, 0, 0.5);
+}
+a{
+	color: lightblue;
 }
 

@@ -8,11 +8,18 @@
 	</head>
 	<body>
 		<main>
-		<section id="intro"><h1>Search NASA's APOD!</h1>Search NASA's APOD library for awesome pictures of <a href="https://apod.nasa.gov/apod/ap170418.html">Earth </a> and<a href="https://apod.nasa.gov/apod/ap170406.html"> Space! </a></section>
-		<form >
-			<label for="user input">Pick a date: <input type="text" id="apod_date_js" placeholder="MM/DD/YYYY"></label>
-			<input class="btn btn-primary search_button" type="submit" value="Submit">
-		</form>
+		<div class="jumbotron">
+			<h1 class="display-3">Search NASA's APOD!</h1>
+			<p class="lead">Search NASA's APOD library for awesome pictures of <a href="https://apod.nasa.gov/apod/ap170418.html">Earth </a> and<a href="https://apod.nasa.gov/apod/ap170406.html"> Space! </a></p>
+			<hr class="my-4">
+			<p>Choose any date from today's date back to June 16 1995 to see the Astronomy picture of the day!</p>
+			<p class="lead">
+				<form >
+					<label for="user input">Pick a date: <input type="text" id="apod_date_js" placeholder="MM/DD/YYYY"></label>
+					<input class="btn btn-primary search_button" type="submit" value="Submit">
+				</form>
+			</p>
+		</div>
 		</main>
 		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
