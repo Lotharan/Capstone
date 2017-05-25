@@ -26,5 +26,17 @@ body {
 .card {
 	color: white;
 	background-color: black;
+	margin-top: 50px;
 }
 
+.image_result{
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	background-position: center;
+}
+
+/*.js_class_toggle{
+	display: none;
+}
+*/
