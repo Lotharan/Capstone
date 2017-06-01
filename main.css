@@ -13,6 +13,7 @@ body {
 	position: fixed;
 	top: 50%;
 	left: 50%;
+	width: 80%;
 	transform: translate(-50%, -50%);
 	font-weight: bold;
 }
@@ -36,4 +37,18 @@ body {
 	background-position: center;
 }
 
+.title-link{
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
 
+.date-info{
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+		.jumbotron {
+				top: 30%;
+		}
+}
